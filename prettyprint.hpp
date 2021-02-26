@@ -123,7 +123,7 @@ namespace pretty_print
                     {
                         stream << *it;
 
-                    if (++it == the_end) break;
+                    if (!(++it != the_end)) break;
 
                     if (delimiters_type::values.delimiter != NULL)
                         stream << delimiters_type::values.delimiter;
