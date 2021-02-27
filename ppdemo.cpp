@@ -17,7 +17,7 @@
 #include <algorithm>
 #include <iterator>
 
-#include "prettyprint.hpp"
+#include "include/cxx_prettyprint/prettyprint.hpp"
 
 
 /* Customization option 1: Direct partial/full specialization.
